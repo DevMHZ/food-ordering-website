@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية - مطعم الأصالة</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="myFunctions.js"></script>
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-icon">&#127869;</span>
+            <h1>مطعم الأصالة</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="home.html" class="active">الرئيسية</a></li>
+                <li><a href="AboutUs.html">من نحن</a></li>
+                <li><a href="Meals.html">الوجبات</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <h2>أهلاً وسهلاً بكم في موقع مطعم الأصالة</h2>
+            <p>اختر من قائمة الأطعمة الشهية وقم بطلبها بسهولة عبر الإنترنت</p>
+        </section>
+
+        <!-- معلومات الطالب -->
+        <section class="card">
+            <h3>معلومات الطالب</h3>
+            <p class="muted">معلومات الطالب القائم بإنجاز هذه الوظيفة</p>
+
+            <div class="table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>الاسم بالعربية</th>
+                            <th>Name (English)</th>
+                            <th>الرقم الجامعي</th>
+                            <th>رقم الصف</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>محمود الأرقم الزعبي</td>
+                            <td>Mahmoud Alarqam Alzoubi</td>
+                            <td>mahmoud_303649</td>
+                            <td>C7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- رابط النشر -->
+        <section class="card">
+            <h3>رابط النشر على الإنترنت</h3>
+            <p>تم استضافة الموقع على مخدم مجاني، يمكن الوصول إليه عبر الرابط التالي:</p>
+            <p class="link-box">
+                <a id="publishLink" href="https://food-ordering-iwb201.netlify.app" target="_blank" rel="noopener">
+                    https://food-ordering-iwb201.netlify.app
+                </a>
+            </p>
+            <small class="muted">ملاحظة: قام الفريق بنشر التطبيق على Netlify (يمكن استبداله بأي خدمة استضافة مجانية أخرى مثل GitHub Pages أو Vercel).</small>
+        </section>
+
+        <!-- ملاحظات -->
+        <section class="card">
+            <h3>ملاحظات الفريق</h3>
+            <ul class="notes-list">
+                <li>تم إنجاز جميع الصفحات المطلوبة (home.html, AboutUs.html, Meals.html) ضمن ملف تنسيق واحد <code>Style.css</code> وملف برمجة واحد <code>myFunctions.js</code>.</li>
+                <li>تم استخدام مكتبة <strong>jQuery</strong> في جميع التفاعلات (إظهار/إخفاء التفاصيل، التحقق من المدخلات، عرض ملخص الطلب).</li>
+                <li>تم إجراء جميع عمليات التحقق المطلوبة على الحقول وفق الصيغ المحددة في نص الوظيفة.</li>
+                <li>الصور المستخدمة في صفحة الوجبات صور حرة الاستخدام من شبكة الإنترنت ذات حجم صغير.</li>
+                <li>التطبيق متجاوب مع مختلف أحجام الشاشات.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 مطعم الأصالة - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
